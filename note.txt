@@ -1,0 +1,13 @@
+
+git config --global user.name "hoangleo"
+git config --global user.email "hoanglx@gmail.com"
+git config --list
+
+
+echo "# bisu" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hoanglx/bisu.git
+git push -u origin main
